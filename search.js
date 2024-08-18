@@ -18,7 +18,7 @@ function search() {
          </div>`;
        });
        localStorage.setItem('carList', listForPage1);
-       document.querySelector('.CarCollection').innerHTML = listForPage1;
+       4('.CarCollection').html( listForPage1);
     // window.location.href='\page1.html';
    }
    search();
