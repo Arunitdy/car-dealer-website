@@ -1,0 +1,112 @@
+body{
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+  background-image:url('https://i.redd.it/apm7kqq1fj4a1.png') ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.title {
+	color: #5C6AC4;
+}
+
+.p{
+   margin: 10px;
+   border: none;
+   cursor: pointer;
+  padding: 0px 35px;
+  color: #017FDF;
+  background-color:transparent ;
+  font-family:Baskerville ,serif;
+  font-weight: bold;
+}
+.logo{
+  
+  background-color: transparent;
+  text-shadow: 5px  6px 5px rgba(0, 0, 0, .5);
+  font-family: Brush Script MT ,cursive;
+  color: #017FDF;
+  font-size: 40px;
+  padding-top:0px ;
+  margin: 1%;
+  
+}
+.sort{
+  padding-left:6px;
+}
+select{
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.menu2{
+  display: flex;
+  gap:30px;
+  border-radius:0px 0px 10px 10px ;
+  /*background-image: linear-gradient(to right,#017FDF,white);*/
+  background-color: white;
+  box-shadow: 5px 5px 6px 5px rgba(0, 0, 0, .5); 
+  width:100%;
+  margin-bottom: 10px;
+  padding: 10px ;
+  padding-left: 10px;
+}
+.CarContainer{
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 5px 5px 6px 5px rgba(0, 0, 0, .5);
+  width: 96%;
+  height: 70%;
+  padding: 3px ;
+  border-radius: 20px;
+  margin: 10px;
+  margin-right: 10px;
+}
+.img_details{
+  display: flex;
+}
+.model{
+  font-size: 30px;
+  font-family: Fantasy;
+  letter-spacing: 1.3px;
+  color: white;
+}
+.price{
+  font-size: 17px;
+}
+details{
+  margin: 0px 10px 10px 10px;
+  cursor: pointer;
+  width: 200px;
+}
+img{
+  width: 200px;
+  box-shadow: 5px 5px 6px 5px rgba(0, 0, 0, .5);
+  border:3px solid #017FDF;
+  border-radius: 15px;
+  align-content: center;
+  margin: 8px 20px 8px 8px;
+}
+.discription,summary{
+  width: 400px;
+   flex-wrap: wrap;
+}
+.about{
+   flex-wrap: wrap;
+  white-space: pre-wrap;
+  width: 400px;
+}
+.details{
+  margin-left:0px ;
+  margin-right: 100%;
+  padding: 10px;
+  height: 50px;
+}
+button:hover {
+ 
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.9);
+}
