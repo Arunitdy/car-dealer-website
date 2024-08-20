@@ -76,8 +76,6 @@ let price = {
   max: 999999
 };
 
-
-
 let model;
 
 document.querySelector('.button1').addEventListener('click', () => {

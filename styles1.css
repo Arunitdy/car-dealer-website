@@ -1,3 +1,5 @@
+
+/*page1*/
 body{
   padding: 0px;
   margin: 0px 0px 10px 0px;
@@ -33,8 +35,15 @@ body{
 }
 .sort{
   padding-left:6px;
+  color: #017FDF;
+  margin-top:8px;
+  font-family:Baskerville ,serif;
+  font-weight: bold;
 }
 select{
+  font-family:Baskerville ,serif;
+  font-weight: bold;
+  color: #017FDF;
   cursor: pointer;
   background-color: transparent;
   border: none;
